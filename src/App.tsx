@@ -5,6 +5,8 @@ import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Starter from './Pages/starter'
 import Earth from './Pages/Earth'
+import Wormwhole from './Pages/Wormhole'
+
 
 function App() {
   
@@ -13,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Starter />} />
         <Route path='/earth' element={<Earth /> }/>
+        <Route path ='/wormhole' element={<Wormwhole />} />
       </Routes>
     </BrowserRouter>
   )
